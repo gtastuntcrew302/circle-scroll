@@ -113,3 +113,9 @@ command grep -i -E 'circle|TM3562|jump' /var/log/Xorg.0.log   # what the X serve
 - After an update, the running settings-copy helper keeps its old code until the next login.
 - Wayland: untested. Expected to work (KWin applies touchpad settings to the same-named copy;
   the helper exits on Wayland). It would also give pixel-smooth scrolling in Qt apps.
+- Published: https://github.com/gtastuntcrew302/circle-scroll (public, MIT), release `v1.0.0`.
+  Commits use the GitHub noreply address (set in this repo's local git config only).
+  Local hand-over file: `dist/circle-scroll-1.0.0.tar.gz` (made with `git archive`; `dist/` is git-ignored).
+- New release: bump `VERSION`, commit, `git push`, then
+  `gh release create vX.Y.Z --title ... --notes ...` and
+  `git archive --format=tar.gz --prefix=circle-scroll-X.Y.Z/ -o dist/circle-scroll-X.Y.Z.tar.gz HEAD`.

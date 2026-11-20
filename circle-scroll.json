@@ -1,0 +1,11 @@
+{
+  "device_name": "",
+  "center_x_mm": 21.99,
+  "center_y_mm": 22.49,
+  "radius_mm": 16.3,
+  "rim_fraction": 0.72,
+  "degrees_per_notch": 20.0,
+  "trigger_mm": 2.5,
+  "clockwise_scrolls_down": true,
+  "scroll_style": "touchpad"
+}

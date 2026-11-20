@@ -1,0 +1,10 @@
+{
+    "KPlugin": {
+        "Name": "Circle Scroll",
+        "Description": "Scroll by running a finger around the edge of a round touchpad",
+        "Icon": "input-touchpad"
+    },
+    "X-KDE-System-Settings-Parent-Category": "pointing-devices",
+    "X-KDE-Keywords": "touchpad,scroll,scrolling,circle,circular,rim,edge,ipod,wheel,panasonic",
+    "X-KDE-Weight": 70
+}
